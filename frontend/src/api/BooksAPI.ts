@@ -5,7 +5,7 @@ interface FetchBooksResponse {
     totalNumBooks: number;
 }
 
-const API_URL = "https://bookstorediamondbackend.azurewebsites.net/api/BookStore"
+const API_URL = "https://mission13diamond1.azurewebsites.net/api/BookStore"
 
 // Common fetch options for all API calls
 const fetchOptions: RequestInit = {

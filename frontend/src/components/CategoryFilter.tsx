@@ -13,12 +13,13 @@ function categoryFilter ({
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                const response = await fetch('https://bookstorediamondbackend.azurewebsites.net/api/BookStore/BookTypes');
+                const response = await fetch('https://mission13diamond1.azurewebsites.net/api/BookStore/BookTypes');
                 const data = await response.json();
                 console.log('Fetched Categories', data);
                 setCategories(data);
             } catch (error) {
                 console.error("Error Fetching Categories", error);
+                throw error
             }
         };
 
