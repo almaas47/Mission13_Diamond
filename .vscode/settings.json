@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/c84c113b-bf2e-44be-8c06-799400a8f77f/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/BookStoreDiamondBackend",
+    "appService.deploySubpath": "backend/Mission11_Diamond/Mission11_Diamond/publish"
+}
